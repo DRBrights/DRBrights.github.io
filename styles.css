@@ -1,4 +1,23 @@
+body{
+    background-color: #d2b0ff ;
+}
 h1{
     text-align: center ;
-    font-size: large;
+    font-size: 40px;
+    background-color: #be87ff;
+    width: auto;
+}
+img{
+
+    width: 1350px;
+    height: 146px;
+
+}
+ol {
+    list-style: none;
+    counter-reset: li;
+}
+li:before {
+    counter-increment: li;
+    content: counters(li,".") ". ";
 }
